@@ -103,6 +103,6 @@ function sanitize($dirtyData)
  */
 function redirect($url)
 {
-  header('Location: {$url}');
+  header("Location: $url");
   exit;
 }
